@@ -38,6 +38,7 @@ jobs:
     runs:
       using: 'node20'
       main: 'main.js'
+      
     steps:
     - name: Checkout
       uses: actions/checkout@main
