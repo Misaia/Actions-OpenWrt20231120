@@ -35,7 +35,8 @@ env:
 
 jobs:
   build:
-    runs: ubuntu-20.04    
+    runs: ubuntu-20.04
+    
     steps:
     - name: Checkout
       uses: actions/checkout@main
